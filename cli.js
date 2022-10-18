@@ -68,8 +68,7 @@ if (fs.existsSync(sourceFile)) {
     "Source file " +
       sourceFile +
       " was succesfully copied to " +
-      targetFile +
-      " as "
+      targetFile
   );
   process.exit(0);
 } else {

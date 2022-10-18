@@ -1,7 +1,7 @@
 {
-  "name": "environments",
-  "description": "i18n translation cli scripts",
-  "version": "1.0.0",
+  "name": "@vojtechportes/environments",
+  "description": "NX like environments build cli",
+  "version": "1.0.2",
   "main": "cli.js",
   "bin": {
     "environments": "cli.js"
