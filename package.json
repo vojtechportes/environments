@@ -1,0 +1,42 @@
+{
+  "name": "environments",
+  "description": "i18n translation cli scripts",
+  "version": "1.0.0",
+  "main": "cli.js",
+  "bin": {
+    "environments": "cli.js"
+  },
+  "exports": {
+    "./bin.js": "./cli.js"
+  },
+  "respository": {
+    "type": "git",
+    "url": "git://github.com/vojtechportes/environments.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "author": "Vojtech Portes <vojtech.v.portes@gmail.com> (https://www.github.com/vojtechportes)",
+  "homepage": "https://github.com/vojtechportes/environments",
+  "keywords": [
+    "environments",
+    "cli"
+  ],
+  "engines": {
+    "node": ">=12"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vojtechportes/environments.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vojtechportes/environments/issues"
+  },
+  "dependencies": {
+    "yargs": "17.5.1"
+  }
+}
